@@ -9,15 +9,19 @@ laravel 5.4 boilerplate with complete authentication system. Includes email veri
 
 2-Run the following commands from your terminal.
 
-  - composer install
-  - Php artisan key:generate
-  - php artisan optimize
+
+   <code>composer install</code>
+   
+   <code>Php artisan key:generate</code>
+   
+   <code>php artisan optimize</code>
+
   
 3-Create a database and populate .env file with your database credentials
 
 4-Run the following commands from your terminal
 
-  - php arisan migrate
+  <code>php arisan migrate</code>
   
 5-Populate .env file with your Oauth2 providers credentials
 
