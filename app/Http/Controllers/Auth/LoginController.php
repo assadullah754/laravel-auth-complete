@@ -69,7 +69,7 @@ class LoginController extends Controller
         // Check if user was successfully loaded, that the password matches
         // and active is not 1. If so, override the default error message.
         if ($user && \Hash::check($request->password, $user->password) && $user->active != 1) {
-            $errors = [$this->username() => 'Your email address is not active. Please follow the verification link in your Email inbox. Alternately you can password Reset.'];
+            $errors = [$this->username() => 'Your email address is not verified. Please follow the verification link in your Email inbox. Alternately you can Reset password to verify email address.'];
         }
 
         if ($request->expectsJson()) {
