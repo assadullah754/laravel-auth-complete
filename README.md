@@ -9,7 +9,8 @@ laravel 5.4 boilerplate with complete authentication system. Includes email veri
 
 2-Run the following commands from your terminal.
 
-
+   <code>mv .env.example .env</code>
+   
    <code>composer install</code>
    
    <code>Php artisan key:generate</code>
